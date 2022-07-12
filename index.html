@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-centre</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.svg" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <img src="./img/close.svg" alt="close">
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                About us
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">About simone</a>
+                                <a class="dropdown-item" href="#">Hypopressives</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Schedule</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Membership</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Videos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Faqs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+        <div class="container">
+            <ol class="carousel-indicators">
+                <div class="hero-dot active" data-target="#carouselExampleIndicators" data-slide-to="0"></div>
+                <div class="hero-dot" data-target="#carouselExampleIndicators" data-slide-to="1"></div>
+                <div class="hero-dot" data-target="#carouselExampleIndicators" data-slide-to="2"></div>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 d-flex align-items-center">
+                            <p class="hero-text">Get back to full strength <span
+                                    class="font-weight-bold">postpartum</span>
+                                by strengthening your pelvic floor and reversing symptoms like <span
+                                    class="font-weight-bold">diastasis, pelvic organ prolapse</span> and <span
+                                    class="font-weight-bold">incontinence.</span>
+                            </p>
+                        </div>
+
+                        <div class="col-12 col-lg-8">
+                            <img src="./img/hero1.png" class="d-block w-100" alt="image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 d-flex align-items-center">
+                            <p class="hero-text"><span class="font-weight-bold">re-centre</span> is a platform focusing
+                                on <span class="font-weight-bold">Hypopressives</span> that integrates <span
+                                    class="font-weight-bold">Yoga</span> and <span
+                                    class="font-weight-bold">Pilates</span> to deliver a complete postpartum programme.
+                            </p>
+                        </div>
+
+                        <div class="col-12 col-lg-8">
+                            <img src="./img/hero2.png" class="d-block w-100" alt="image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 d-flex align-items-center">
+                            <p class="hero-text">Hypopressives is a <span class="font-weight-bold">low impact breathing
+                                    and whole body exercise
+                                    technique</span> that builds strength in your pelvic floor and helps overcome
+                                postnatal issues.
+                            </p>
+                        </div>
+
+                        <div class="col-12 col-lg-8">
+                            <img src="./img/hero3.png" class="d-block w-100" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                data-slide="prev">
+                <img src="./img/hero-arrow-left.svg" alt="arrow">
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                data-slide="next">
+                <img src="./img/hero-arrow-right.svg" alt="arrow">
+            </button>
+        </div>
+        </div>
+    </section>
+
+    <section class="learn-more">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-7 text-center">
+                    <h2 class="learn-more-title title">What is hypopressives and how does it work?</h2>
+                    <p class="learn-more-text">Hypopressives is a low impact breathing and exercise technique that works
+                        to reduce pressure in the pelvic and abdominal cavities. This lifts the pelvic organs and
+                        stimulates a contraction of the pelvic floor and deep core muscles, strongly increasing their
+                        muscular activity.</p>
+                    <button type="button" class="btn learn-more-btn">learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="improve">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="./img/improve.png" alt="image">
+                </div>
+                <div class="col-12 col-lg-6 improve-block">
+                    <h2 class="improve-title title">Hypopressives improves:</h2>
+                    <ul class="improve-list">
+                        <li>Pelvic organ prolapse</li>
+                        <li>Incontinence</li>
+                        <li>Diastasis recti</li>
+                        <li>Poor posture</li>
+                        <li>Pelvic floor weakness</li>
+                        <li>Metabolism</li>
+                        <li>Sexual function</li>
+                        <li>Waist circumference</li>
+                        <li>Respiratory issues</li>
+                        <li>Back pain</li>
+                        <li>Digestion</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="program">
+        <div class="container">
+            <div class="row program-block justify-content-center text-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <h2 class="program-title title">A flexible programme that fits around you</h2>
+                    <p class="program-text">Do 1 hour of Hypopressives a week and see improvements.</p>
+
+                    <div class="row program-wrapper justify-content-between">
+                        <div class="col-12 col-md-4 text-left p-0">
+                            <img src="./img/program1.png" alt="img">
+                            <p class="text-center program-benefit">10 - 60 minute classes</p>
+                        </div>
+                        <div class="col-12 col-md-4 p-0">
+                            <img src="./img/program2.png" alt="img">
+                            <p class="program-benefit">Hypopressives, Yoga, Pilates and more</p>
+                        </div>
+                        <div class="col-12 col-md-4 text-right p-0">
+                            <img src="./img/program3.png" alt="img">
+                            <p class="text-center program-benefit">One-to-One support</p>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn program-btn">View classes</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="work-title title">How re-centre works</h2>
+            </div>
+
+            <div class="row work-wrapper justify-content-between">
+                <div class="col-12 col-lg p-0 work-block">
+                    <div class="row work-row">
+                        <img src="./img/work1.png" alt="img">
+                        <img class="work-arrow" src="./img/work-arrow.svg" alt="arrow">
+                    </div>
+
+                    <p class="work-text">Subscribe to a live or on-demand package</p>
+                </div>
+
+                <div class="col-12 col-lg p-0 work-block">
+                    <div class="row work-row">
+                        <img src="./img/work2.png" alt="img">
+                        <img class="work-arrow" src="./img/work-arrow.svg" alt="arrow">
+                    </div>
+
+                    <p class="work-text">Sign-up to a fundamentals class to learn the technique</p>
+                </div>
+
+                <div class="col-12 col-lg p-0 work-block">
+                    <div class="row work-row">
+                        <img src="./img/work3.png" alt="img">
+                        <img class="work-arrow" src="./img/work-arrow.svg" alt="arrow">
+                    </div>
+
+                    <p class="work-text">Start the beginner classes</p>
+                </div>
+
+                <div class="col-12 col-lg p-0 work-block">
+                    <div class="row work-row">
+                        <img src="./img/work4.png" alt="img">
+                        <img class="work-arrow" src="./img/work-arrow.svg" alt="arrow">
+                    </div>
+
+                    <p class="work-text">Individual support via a one-to-one check-ins</p>
+                </div>
+
+                <div class="col-12 col-lg p-0 work-block work-block-last">
+                    <div class="row work-row">
+                        <img src="./img/work5.png" alt="img">
+                    </div>
+
+                    <p class="work-text">Progress to more advanced levels at your own pace</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscription">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="subscription-block col-12 col-xl-8">
+                    <h2 class="subscription-title title text-center">Our subscription packages</h2>
+
+                    <div class="row card-wrapper">
+                        <div class="col-12 col-md-6 card align-items-center">
+                            <h3 class="card-title">On demand</h3>
+                            <p class="card-subtitle">Recorded videos</p>
+                            <p class="card-text">Starting at</p>
+                            <p class="card-price">£13</p>
+                            <p class="card-text">Per month</p>
+                            <button type="button" class="btn subscription-btn">Sign up</button>
+                        </div>
+
+                        <div class="col-12 col-md-6 card align-items-center">
+                            <h3 class="card-title">Full access</h3>
+                            <p class="card-subtitle">Live + recorded videos</p>
+                            <p class="card-text">Starting at</p>
+                            <p class="card-price">£18</p>
+                            <p class="card-text">Per month</p>
+                            <button type="button" class="btn subscription-btn">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="include">
+        <div class="container">
+            <div class="row include-block">
+                <div class="col text-center">
+                    <h2 class="include-title title">All subscriptions include</h2>
+
+                    <div class="row d-flex flex-wrap justify-content-center include-items">
+                        <div class="col">
+                            <img src="./img/include1.png" alt="img">
+                            <p class="include-text">A live fundamental class to learn the technique</p>
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/include2.png" alt="img">
+                            <p class="include-text">Unlimited access to over 100+ videos</p>
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/include3.png" alt="img">
+                            <p class="include-text">One-to-one check-ins with me to discuss progress</p>
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/include4.png" alt="img">
+                            <p class="include-text">New weekly videos</p>
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/include5.png" alt="img">
+                            <p class="include-text">Priority access to live workshops and retreats</p>
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/include6.png" alt="img">
+                            <p class="include-text">Cancel easily online, anytime</p>
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/include7.png" alt="img">
+                            <p class="include-text">14-day free trial</p>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn include-btn">Live class schedule</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <div class="row news-block justify-content-center">
+                <div class="col-12 col-lg-8 text-center">
+                    <h2 class="news-title title">Sign-up to our newsletter and get 15% off your first month</h2>
+                    <p class="news-text">Receive news, health tips and information on upcoming workshops and events.</p>
+
+                    <form class="news-form d-flex justify-content-center align-items-center">
+                        <input class="news-input" type="email" aria-describedby="emailHelp"
+                            placeholder="Enter your email">
+                    </form>
+
+                    <button type="button" class="btn news-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="row about-block">
+                <div class="col-12 col-lg-6 text-center">
+                    <img class="img-fluid" src="./img/about.png" alt="img">
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <h2 class="about-title title">A little bit about me - Simone Muller</h2>
+                    <p class="about-text">I am a certified Hypopressives, Pilates and Yoga teacher
+                        with over 15 years teaching experience. My approach is
+                        unique as it brings all these disciplines together to deliver
+                        effective results for what your specific body needs.
+                        <br><br>
+                        In 2021 I launched re-centre, an online platform to share the incredible benefits of the Low
+                        Pressure Fitness technique.
+                    </p>
+                    <a class="about-link" href="#">MORE ABOUT ME ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="members">
+        <div class="container">
+            <div class="row members-block text-center justify-content-center">
+                <div class="col-12">
+                    <h2 class="members-title title">What our members say</h2>
+
+                    <div id="carouselExampleIndicators1" class="carousel slide members-carousel" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">1/10</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">2/10</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 col-xxl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">3/10</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">4/10</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">5/10</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">6/10</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">7/10</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">8/10</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">9/10</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-xl-10 members-item">
+                                    <img src="./img/quote.svg" alt="img">
+                                    <p class="members-text">I have been doing Simone’s class for the
+                                        last 8 months. When I started, I had a
+                                        large diastasis recti separation. Now my
+                                        stomach muscles are knitted back
+                                        together again. Thank you, Simone!
+                                        <br><br>
+                                        I love
+                                        how her class mixes Pilates with
+                                        hypopressives. You can really feel your
+                                        muscles working from the inside out. The
+                                        website is great as you have access to
+                                        short videos that you can do when you
+                                        have a spare 10 mins. I would highly
+                                        recommend her classes for anyone who
+                                        has just given birth.
+                                    </p>
+
+                                    <div class="row members-stars justify-content-center">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                        <img src="./img/star.svg" alt="star">
+                                    </div>
+
+                                    <p class="members-man">Pia</p>
+                                </div>
+
+                                <p class="members-number">10/10</p>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators1"
+                            data-slide="prev">
+                            <img src="./img/hero-arrow-left.svg" alt="arrow">
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators1"
+                            data-slide="next">
+                            <img src="./img/hero-arrow-right.svg" alt="arrow">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="video-title title">The breathing technique explained</h2>
+                    <div class='embed-container'>
+                        <img src="./img/video-poster.png" alt="video" onclick="iFrame()">
+                        <iframe src='https://www.youtube.com/embed/g8PVuxzuoCA' id="iframe" frameborder='0'
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <div class="row text-center partners-block justify-content-center">
+                <div class="col partners-item">
+                    <h2 class="partners-title title">Press & Partners</h2>
+
+                    <div class="row d-flex flex-wrap justify-content-center partners-brands">
+                        <div class="col">
+                            <img src="./img/partner1.png" alt="partner">
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/partner2.png" alt="partner">
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/partner3.png" alt="partner">
+                        </div>
+
+                        <div class="col">
+                            <img src="./img/partner4.png" alt="partner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-block justify-content-between">
+                <div class="col-12 col-lg-6 col-xl-4 footer-certifications">
+                    <h3 class="footer-title">Certifications</h3>
+
+                    <div class="row d-flex flex-wrap certifications-wrapper align-items-center">
+                        <img src="./img/footer1.png" alt="img">
+                        <img src="./img/footer2.png" alt="img">
+                        <img src="./img/footer3.png" alt="img">
+                    </div>
+
+                    <div class="row footer-social">
+                        <a href="#">
+                            <img src="./img/social1.png" alt="youtube">
+                        </a>
+                        <a href="#">
+                            <img src="./img/social2.png" alt="inst">
+                        </a>
+                        <a href="#">
+                            <img src="./img/social3.png" alt="fb">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-8 footer-contact">
+                    <h3 class="footer-title">Contact Us</h3>
+
+                    <form class="footer-form">
+                        <input type="text" class="form-control" required placeholder="Name">
+                        <input type="email" class="form-control" required placeholder="Email">
+                        <textarea class="form-control" required placeholder="Message"></textarea>
+                        <button type="submit" class="btn form-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row text-center footer-row">
+                <div class="footer-links">
+                    <a class="footer-link" href="#">Medical Disclaimer & Liability</a>
+                </div>
+
+                <div class="footer-links">
+                    <a class="footer-link" href="#">Privacy<br>Policy</a>
+                </div>
+
+                <div class="footer-links">
+                    <a class="footer-link" href="#">Cookie<br>Policy</a>
+                </div>
+
+                <div class="footer-links">
+                    <a class="footer-link" href="#">Acceptable Use<br>Policy</a>
+                </div>
+
+                <div class="footer-links">
+                    <a class="footer-link" href="#">Terms of<br>Service</a>
+                </div>
+
+                <div class="footer-links">
+                    <a class="footer-link" href="#">Gift Cards</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
